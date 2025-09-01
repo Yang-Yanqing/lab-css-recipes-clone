@@ -3,6 +3,7 @@
 html {
   box-sizing: border-box;
   font-size: 16px;
+ /* background-color: aquamarine; */
 }
 
 *, *:before, *:after {
@@ -22,3 +23,115 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+/* Change style of Applepie img */
+.container {
+  display: flex;
+  justify-content: center; 
+  width: 90vw;
+  margin: 0 auto;  
+  
+}
+
+h1{
+  display: flex;
+  background-image: url(../images/apple-pie.jpg);
+  background-size: cover;  
+  color: rgb(252, 250, 250);             
+  padding: 20px;
+  width: 90vw;
+  height: 80vh;
+  font-size: 10rem;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.sentens1{
+ display: flex;
+  justify-content: center; 
+  width: 90vw;
+  margin: 0 auto;  
+
+}
+p
+{
+display: flex;
+font-size: 1rem;
+align-items: center;
+width: 80vw;
+height: auto;
+margin: 1rem;
+}
+
+.img2
+{
+  width: 20rem;
+  height: 7rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; 
+}
+
+img
+{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;      
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+h2
+{
+display: block;
+background-color: black;
+width: 90vw;
+height: 2px;
+margin: 0 auto;
+}
+
+div.mainPara
+{
+display: block;
+
+width: 90vw;
+margin: 0 auto;
+}
+
+p.titleOf
+{
+display: block;
+justify-content:flex-start; 
+margin: 1rem;
+   
+}
+
+ul.ulOf
+{
+display: block;
+flex-direction: column;
+justify-content:flex-start; 
+margin: 1rem;
+}
+
+div.lastPara
+{
+display: block;
+width: 90vw;
+margin: 0 auto;
+}
+
+p.lastPara
+{
+display: block;
+flex-direction: column;
+justify-content:flex-start; 
+margin: 1rem;
+}
+
